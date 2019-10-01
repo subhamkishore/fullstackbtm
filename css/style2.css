@@ -1,0 +1,21 @@
+div{
+    background: red;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #111;
+    color: #fff;
+    display: inline-block;
+}
+
+div:nth-child(2){
+    background: blue;
+}
+div:nth-child(3){
+    background: black;
+}
+div:first-child{
+    background: yellow;
+}
+div:last-child{
+    background: gray !important;
+}

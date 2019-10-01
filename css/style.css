@@ -1,0 +1,21 @@
+button{
+    background: red;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: blue;
+}
+
+button:hover{
+    background: #111;
+    transform: scale(1);
+    transition: ease-in-out is all;
+    padding: 20px;
+}
+.btn-danger{
+    background: burlywood;
+}
+
+button{
+    background: yellow !important;
+}
